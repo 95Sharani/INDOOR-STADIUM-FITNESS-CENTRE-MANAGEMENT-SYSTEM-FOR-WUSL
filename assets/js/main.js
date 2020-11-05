@@ -1,0 +1,33 @@
+function main () {
+  var height = parseFloat(document.getElementById('Height').value);
+  var weight = parseFloat(document.getElementById('Weight').value);
+
+  var imc = weight / (height/100)**2;
+  imc = imc.toFixed(2);
+
+  if (imc > 0 && imc <= 15) {
+    document.getElementById('output').innerHTML = '<font color="black">Your BMI is: ' + imc + '<br>Your weight is </font><span><font color = "red">very severely underweight.</font></span><br><br><font color="black">You should get a balanced meat with high carborhydrate and protien. It is very important to eat mostly healthy foods even when you are trying to gain weight. Eat eggs, many dairy products, legumes, nuts for daily calery intake. Do not try hard exercises. Try to start with treadmills. Make sure to meet your coach for more details.</font>';
+  } else if (imc > 15 && imc <= 16) {
+    document.getElementById('output').innerHTML = '<font color="black">Your BMI is: ' + imc + '<br>Your weight is </font><span><font color = "red">severely underweight.</font></span><br><br><font color="black">Make sure to get a balanced diet with plenty of carbohydrates and protiens. Eat eggs, many dairy products, legumes, nuts for daily calery intake. Do not try hard exercises. Try treadmill and abcoaster with easy steps. Make sure to discuss your diet and exercises with the coach.</font> ';
+  } else if (imc > 16 && imc <= 18.5) {
+    document.getElementById('output').innerHTML = '<font color="black">Your BMI is: ' + imc + '<br>Your weight is </font><span><font color = "red">Underweight.</font></span><br><br><font color="black">Make sure to eat a balanced diet with sufficient amount of carbohydrates and protiens. to gain weight eat at least three meals per day and make sure to include plenty of fat, carbs and protiens. Do some body weight exercises and use lat machines and leg press machines for strength training. Contact coach for more details.</font> ';
+  } else if (imc > 18.5 && imc <= 25) {
+    document.getElementById('output').innerHTML = '<font color="black">Your BMI is: ' + imc + '<br>Your weight is </font><span><font color = "green">Normal (healthy weight).</font></span><br><br><font color="black">Make sure to maintain your BMI as this level. Get a nutrition and balanced diet daily. You are free to use any gym equipment as you wish. Contact coach to get descriptive detail as your preference. </font>';
+  } else if (imc > 25 && imc <= 30) {
+    document.getElementById('output').innerHTML = '<font color="black">Your BMI is: ' + imc + '<br>Your weight is </font><span><font color = "red">Overweight.</font></span><br><br><font color="black">Make sure to get a balanced diet every day. Eat lot of fruits, vegetables and grains. Avoid junk foods. Do cardio exercises regularly. Use treadmill and ab machines in the gym. Do exercises regularly. Do not skip meals to loose weight it will make the case worse. get enough sleep. Contact coach for more details.</font>';
+  } else if (imc > 30 && imc <= 35) {
+    document.getElementById('output').innerHTML = '<font color="black">Your BMI is: ' + imc + '<br>Your weight is </font><span><font color = "red">Obese Class I (Moderately obese).</font></span><br><br><font color="black">Make sure to get a balanced diet every day. Eat lot of fruits, vegetables and grains. Avoid junk foods. Do cardio exercises regularly. Use treadmill and ab machines in the gym. Do exercises regularly. Do not skip meals to loose weight it will make the case worse. get enough sleep. Contact coach for more details.</font>';
+  } else if (imc > 35 && imc <= 40) {
+    document.getElementById('output').innerHTML = '<font color="black">Your BMI is: ' + imc + '<br>Your weight is </font><span><font color = "red">Obese Class II (Severely obese).</font></span><br><br><font color="black">Make sure to get a balanced diet every day. Eat lot of fruits, vegetables and grains. Avoid junk foods. Do cardio exercises regularly. Use treadmill and ab machines in the gym. Do exercises regularly. Do not skip meals to loose weight it will make the case worse. get enough sleep. Contact coach for more details.</font>';
+  } else if (imc > 40 && imc <= 45) {
+    document.getElementById('output').innerHTML = '<font color="black">Your BMI is: ' + imc + '<br>Your weight is </font><span><font color = "red">Obese Class III (Very severely obese).</font></span><br><br><font color="black">Make sure to get a balanced diet every day. Eat lot of fruits, vegetables and grains. Avoid junk foods. Do cardio exercises regularly. Use treadmill and ab machines in the gym. Do exercises regularly. Do not skip meals to loose weight it will make the case worse. get enough sleep. Contact coach for more details.</font>';
+  } else if (imc > 45 && imc <= 50) {
+    document.getElementById('output').innerHTML = '<font color="black">Your BMI is: ' + imc + '<br>Your weight is </font><span><font color = "red">Obese Class IV (Morbidly Obese).</font></span><br><br><font color="black">Make sure to get a balanced diet every day. Eat lot of fruits, vegetables and grains. Avoid junk foods. Do cardio exercises regularly. Use treadmill and ab machines in the gym. Do exercises regularly. Do not skip meals to loose weight it will make the case worse. get enough sleep. Contact coach for more details.</font>';
+  } else if (imc > 50 && imc <= 60) {
+    document.getElementById('output').innerHTML = '<font color="black">Your BMI is: ' + imc + '<br>Your weight is </font><span><font color = "red">Obese Class V (Super Obese).</font></span><br><br><font color="black">Make sure to get a balanced diet every day. Eat lot of fruits, vegetables and grains. Avoid junk foods. Do cardio exercises regularly. Use treadmill and ab machines in the gym. Do exercises regularly. Do not skip meals to loose weight it will make the case worse. get enough sleep. Contact coach for more details.</font>';
+  } else if (imc > 60) {
+    document.getElementById('output').innerHTML = '<font color="black">Your BMI is: ' + imc + '<br>Your weight is </font><span><font color = "red">Obese Class VI (Hyper Obese).</font></span><br><br><font color="black">Make sure to get a balanced diet every day. Eat lot of fruits, vegetables and grains. Avoid junk foods. Do cardio exercises regularly. Use treadmill and ab machines in the gym. Do exercises regularly. Do not skip meals to loose weight it will make the case worse. get enough sleep. Contact coach for more details.</font>';
+  } else {
+    document.getElementById('output').innerHTML = '<font color="black">Please type valid numbers.</font>';
+  }
+}
