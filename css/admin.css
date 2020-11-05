@@ -1,0 +1,200 @@
+.ad{
+	width: 600px;
+	height: 500px;
+	box-sizing: border-box;
+	top:100px;
+	left:30%;
+	position: absolute;
+	border:2px solid black;
+	background: rgba(0,0,0,0.1);
+}
+
+.ad h2{
+	position: relative;
+	text-align: center;
+	color: #E62D2D;
+	font-family: Lucida Sans;
+	font-size: 28px;
+}
+
+.ad p{
+	font-size: 18px;
+	font-weight: bold;
+	padding: 19px 30px;
+	height: 0px;
+
+}
+
+.ad input{
+	padding: 3px;
+	outline: none;
+	border:none;
+	border-bottom: 1px solid black;
+	background:transparent;
+}
+
+.staff_id input{
+	position: absolute;
+	top:95px;
+	left:180px;
+}
+
+.name input{
+	position: absolute;
+	top:150px;
+	left:180px;
+}
+
+.email input{
+	position: absolute;
+	top:205px;
+	left:180px;	
+}
+
+.phone input{
+	position: absolute;
+	top:265px;
+	left:180px;	
+}
+
+.date input{
+	position: absolute;
+	top:310px;
+	left:180px;	
+}
+
+.address input{
+	position: absolute;
+	top:370px;
+	left:180px;	
+}
+
+.institute input{
+	position: absolute;
+	top:430px;
+	left:180px;		
+}
+
+.control {
+	position: absolute;
+	top:375px;
+	left:180px;	
+	padding: 5px 15px;
+}
+.pass input{
+	position: absolute;
+	top:430px;
+	left:180px;	
+}
+.passw input{
+	position: absolute;
+	top:490px;
+	left:180px;	
+}
+
+
+.submit input[type="submit"]{
+	position: absolute;
+	border:solid 1px #000;
+	background-color: #E62D2D;
+	width:100px;
+	height:40px;
+	border-radius: 10px;
+	font-size: 20px;	
+	top:160px;
+	left:420px;
+}
+
+.submit input[type="submit"]:hover{
+	cursor: pointer;
+	background:#f30f0f;
+	
+}
+
+.clear input[type="reset"]{
+	border:solid 1px #000;
+	background-color: #E62D2D;
+	width:100px;
+	height:40px;
+	border-radius: 10px;
+	font-size: 20px;
+	position: absolute;
+	left: 420px;
+	top: 240px;
+}
+
+.clear input[type="reset"]:hover{
+	cursor: pointer;
+	background:#f30f0f;
+}
+
+.view input[type="button"]{
+	border:solid 1px #000;
+	background-color: #FFBF00;
+	width:100px;
+	height:40px;
+	border-radius: 10px;
+	font-size: 20px;
+	position: absolute;
+	left: 420px;
+	top: 320px;	
+}
+
+.view input[type="button"]:hover{
+	cursor: pointer;
+	background:#FF8000;
+}
+
+
+.back-button{
+	position: absolute;
+	padding-left: 4px;
+	padding-top: 4px;	
+}
+
+.back-button:hover{
+	cursor: pointer;
+}
+
+.table-responsive h3{
+	font-family:Cooper Black;
+	color: #663300;
+	font-size: 40px;
+	position: relative;
+	top:23px;
+}
+
+.ade{
+	width: 600px;
+	height: 550px;
+	box-sizing: border-box;
+	top:95px;
+	left:30%;
+	position: absolute;
+	border:2px solid black;
+	background: rgba(0,0,0,0.1);
+}
+
+.ade h2{
+	position: relative;
+	text-align: center;
+	color: #E62D2D;
+	font-family: Lucida Sans;
+	font-size: 28px;
+}
+
+.ade p{
+	font-size: 18px;
+	font-weight: bold;
+	padding: 19px 30px;
+	height: 0px;
+
+}
+
+.ade input{
+	padding: 3px;
+	outline: none;
+	border:none;
+	border-bottom: 1px solid black;
+	background:transparent;
+}
